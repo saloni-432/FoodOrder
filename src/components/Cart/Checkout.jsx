@@ -23,7 +23,7 @@ const Checkout = ({ onClickHandler,list }) => {
     const city = cityinpRef.current.value;
     if (name.trim().length === 0) setisNameValid(false);
     if (street.trim().length === 0) setisstreetValid(false);
-    if (!(post.trim().length === 5)) setispostValid(false);
+    if (!(post.trim().length === 6)) setispostValid(false);
     if (city.trim().length === 0) setiscityValid(false);
     const person = {
       name,
